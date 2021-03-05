@@ -6,3 +6,9 @@ async function showServerTime() {
   const dateContainer = document.getElementById('current-container');
   dateContainer.innerText = textFromResponse;
 }
+async function showMessage(){
+    const resp = await fetch('/random');
+     const textFrom = await resp.text();
+     const randContainer = document.getElementById('rand-container');
+    randContainer.innerText = textFrom;
+}

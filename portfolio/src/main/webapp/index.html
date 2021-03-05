@@ -5,6 +5,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="jsPractice.js"></script>
     <style> 
       body{ background-color: black; }
       h1{ color: white;}
@@ -19,7 +20,7 @@
     <div id="content">
       <h1>SPS Portfolio</h1>
       <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
+      <p>Click <a href="/hello">here</a> too see content created by server code.</p>
       <p>Spring 2020</p>
 
     <p>Hello World! I'm Cameron Payton. 
@@ -56,8 +57,12 @@
             <li>--><a href = "https://www.linkedin.com/in/cameronwpayton123/">LinkedIn </a></li>
             <li>--><a href = "https://github.com/cpayton-source">Github</a></li>
         </ol>
-        <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
+        <p id="current-container"></p>
+    <button onclick ="showServerTime();">Today's Date and Time</button>
+    <p id="rand-container"></p>
+    <button onclick ="showMessage();">Random Fruit</button>
+    <p id="greeting-container"></p>
+        <button onclick="addRandomGreeting();">Random Greeting Button</button>
     </div>
   </body>
 </html>
