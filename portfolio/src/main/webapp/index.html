@@ -14,12 +14,12 @@
       ul{color: white;}
       ol{color: white;}
       a{color: white;}
+      form{color: white;}
     </style>    
   </head>
   <body>
     <div id="content">
       <h1>SPS Portfolio</h1>
-      <p>This is my portfolio.</p>
       <p>Click <a href="/hello">here</a> too see content created by server code.</p>
       <p>Spring 2020</p>
 
@@ -64,6 +64,11 @@
     <p id="greeting-container"></p>
         <button onclick="addRandomGreeting();">Random Greeting Button</button>
     <form action="/form-handler" method="POST">
+        <p>What is your favorite place in the world?</p>
+        <textarea name="text-input">Enter answer here</textarea>
+        <br/>
+        <input type="submit" />
+    </form>
     </div>
   </body>
 </html>
