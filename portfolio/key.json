@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cpayton-sps-spring21",
+  "private_key_id": "428c6debd01dddb2fae98548fc7941f742d5b8a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCfbRWaddPwpCuj\nEZc/fY65ZB8+w0rvWB1PM/fJbHaoVcIG0jYLgvimtlpGKLWd9v3w29jo9U4kQgct\n5UBxE5wHGXFwWvIND0JbuehGK4kbzXJutuecSAAxGeXtg/xEif0/oqVWlcdSVyeb\n8EnltQT5Vz9Zghi0a8EdrsWOxT624iM3pdYdy6u9rDuf3b6yPnAYGYz/00ErLJZo\nX9xFhDQ2f0vxwSirHze98lWtb/1jOF+vkIWFJlIbvZ08axJ2H6lky/gAa9raN3AI\nzjHW0M9LHvaFt8saBCEwQ279EaIw6RO0xqIYVtOVUp+2vuVR2t4P2MauAoU2MuIj\nzozOT9fRAgMBAAECggEACozcfiFICkfC/4KdgL0dYdVnX+7qmZY6MlCdGD5OR+uM\n8IievPpI3Dd7F+N/yVlcCsFxxFDff/TCpt3h+tmyXKHpaOcL16Nn38wYu/QLmcRp\nyzvdbfEx2g39sk8mtZ5wHPL1gBpfW2qbG222ZjYpgxqr/Y9ndSEgYYd8WWtiMBYC\nOQf///Su4oOjxO1jaheX8UvqMPmhsbFIzggX+D249jN7TTzL/U1qzSiKH/UXpkQ5\nKsEvyRO70dP8D9qpz81S8OT3OXVmtj/rmo/7pyN/JXstIwD5ZhRzCqMgKpijia9Z\n6oO09h0McsDahR5RenYkOAjkyB8hpFoUIJYGchmocQKBgQDVhwmimHh6zaHBrtcn\n3iRZsVTnd5ZMLCQd9fbzppd47B+Md4t+8KFQK34uc+jpse5w5rkbCD2nWzopkOqv\niTC7qtrcTPOH0+mPsRrDrFgkxXf/4NTpMC1wHqA0mxHJEQjBkO8afQ6ItHfcHC+r\nGXZ0D4fhb3Qi+acSm1RCWT4lHQKBgQC/IysajhRlV4sUUpaJKjjHjEI6Kym71sco\nRQYoDhc4E/vnVlC+NHoArwCuA1P7lp25uHhZxIl2a8Ml//w+p84BuT0v3Pzyp3g1\nE6rMuE3p6xm8BQjfQQfLggPd52lwgnU137891V1F32uKhrxoKAFTnp6lFMUsusMm\nUpO6xzqDRQKBgFHlaRyjvhHbrJ7MoFj6Kpb8HMRqaYrtoyyamgz5aD9I0RDfCPG2\n+Sf2hn7qlfqL9Bf5ZiWoE32Mz9IBcwHAbKCN90NngEAoVvx1wP4rq+LumgfaA88s\nW0EVffyvPTMRBXq4S/ys2lY0YYRaiy3kpjn9evBL/w8rEZlhWf/Ymq1BAoGBAIY0\na09581g037KlSo2E19lE4jt1kxgQ9kWQMYJuYl89qOIF+SuULRXNyuxj6dP9LUH6\nBIcDOIGtqJhF5RcZO8x6BDxXLkQy0nRyGrsjrZFRQgCCiHg5cP+zioOEuMQG1cW+\nFMmVxqgI97mMYT3A2S2dckb3DnsZp2yBDrlWqf8BAoGAamyOVle4ysKWyoEFMApe\nXDSOdKXDhcXeqr3cNkK+VGuf3dwdh3Fif9/zTvz2+Bh/KRtsFmv/Jwd9F3CweOzh\nagd50FCu1v0AEm1lV0ta6Wxlv/MjHuP+3nSYg1jiduKuKGCaXTN7O2IPf4e0NEEm\nkOxioVcIbypXFaPcJ+V3wuk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "camcodes@cpayton-sps-spring21.iam.gserviceaccount.com",
+  "client_id": "115787598855265367561",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/camcodes%40cpayton-sps-spring21.iam.gserviceaccount.com"
+}
