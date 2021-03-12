@@ -6,7 +6,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="jsPractice.js"></script>
+    <script>
+    function requestTranslation() {
+        const text = document.getElementById('text').value;
+        const languageCode = document.getElementById('language').value;
+
+        const resultContainer = document.getElementById('result');
+        resultContainer.innerText = 'Loading...';
+
+        const params = new URLSearchParams();
+        params.append('text', text);
+        params.append('languageCode', languageCode);
+
+        fetch('/translate', {
+          method: 'POST',
+          body: params
+        }).then(response => response.text())
+        .then((translatedMessage) => {
+          resultContainer.innerText = translatedMessage;
+        });
+      }
+    </script>
     <style> 
+    #text{width: 500px; height: 125px;}
+    #language{display: block; margin-top: 25px; margin-bottom: 25px;}
       body{ background-color: black; }
       h1{ color: white;}
       p{ color: white}
@@ -74,11 +97,16 @@
         <textarea name="contact-input">Enter your email</textarea>
         <input type="submit" />
     </form>
-    <form action="/translate" method="POST">
-        <p>Write comment to get translated</p>
-        <textarea name="text">Enter text</textarea>
-        <input type="submit" />
-    </form>
+        <h2> Translate part </h2>
+        <p>Type a message and it will be translated into spanish</p>
+        <textarea id="text"></textarea>
+        <select id="language">
+            <option value = "es">
+                Spanish
+            </option>
+        </select>
+        <button onclick="requestTranslation();"> Translate</button>
+        <div id="result"></div>
     </div>
   </body>
 </html>
