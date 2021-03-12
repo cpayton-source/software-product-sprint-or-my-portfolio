@@ -38,15 +38,36 @@
       <artifactId>jetty-annotations</artifactId>
       <version>${jetty.version}</version>
     </dependency>
+
+    <!--Translate library-->
     <dependency>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-translate</artifactId>
   <version>1.70.0</version>
 </dependency>
+
+  
+</dependencies>
+
+ <!--
+     <dependency>
+    <groupId>com.google.cloud</groupId>
+    <artifactId>google-cloud-storage</artifactId>
+  </dependency>
+
+<dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>libraries-bom</artifactId>
+      <version>19.0.0</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
   </dependencies>
+</dependencyManagement> 
 
-
-
+ -->
   <build>
     <plugins>
       <!-- Copy static resources like html files into the output jar file. -->
